@@ -59,10 +59,7 @@ margin: auto;
         margin-top: -120px;
         margin-bottom: 128px;
   gap: 120px;
-
-  
-       
-     }
+ }
 
      main section.card img{
      display: flex;
@@ -81,26 +78,68 @@ margin: auto;
      justify-content: space-around;
    background-color:  #FCF77D;
       }
+    
+      footer section.foter  {
+        list-style: none;
+       display: grid;
+     grid-template-columns: 1fr 1fr;
+     display: flex;
+     justify-content: space-around;
+  
+   padding-top: 1700px;
+
+      }
+  
   
       footer ul.fo{
         list-style: none;
 
 }
+ section.foo img{
+  list-style: none;
+  width: 140px;
+  height:130px;
+  object-fit: cover;
+  object-fit: fill;
+  padding: 28px;
+
+}
+footer section.c{
+  list-style: none;
+ display: grid;
+grid-template-columns: 1fr 1fr;
+display: flex;
+justify-content: space-around;
+}
 p.t{
   display: flex;
   align-items :left;
-  padding-left: 200px;
+  padding-left: 330px;
   font-size: 48px;
-  width: 1056px;
+  width: 950px;
   height: 300px;
   line-height: 130%;
 }
-   p.tel {
-    display :flex ;
+div.si p{
+  width: 800px;
+  height: 200px; 
+  font-size: 48px;
+  line-height: 130%;
+  padding-left: 80px;
+}
+div.si img{
+  width: 625px;
+  height: 676px;
+  object-fit: cover;
+padding-top: 200px;
+padding-left: 80px;
+}
 
-justify-content: flex-start;
+div.si{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
-     }
       footer img {
         list-style: none;
         width: 140px;
@@ -165,6 +204,13 @@ section.imag{
     margin: auto;
     }
     
+    div.c{
+      width: 495px;
+      height: 600px;
+      object-fit: cover;
+      padding-left: 20px;
+    }
+
 section.imag img {
   width: 544px;
   height: 600px;
@@ -179,7 +225,13 @@ section.imag img {
        }
   h3{ 
     font-size: 64px;
-    align-items: flex-start;
+    display: flex;
+  align-items: left;
+padding-left: 220px;
+padding-top: 64px;
+margin: 0%;
+  
+
     
   }
 
