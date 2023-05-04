@@ -4,172 +4,182 @@ body {
     margin: 0;
 }
 img{
-  max-width: 100%;
+width: 100%;
 }
 
-main, footer {
-max-width: 100%;
+main, footer header {
+width:100%;
 margin: auto;
+}
+main.ill footer.foo header.he {
+  width:100%;
+  margin: auto;
+  }
+
+header p{
+  font-size: 24px;
+padding: 10px;
 }
 
   header  {
+    width: 100%;
     background-color: #FCF77D;
     font-size: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center; 
-   padding: 8px;
+ 
   }
-
+header.pa{
+  background-color: #EF960F;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+ padding: 8px;
+}
 
     nav ul {
- 
-   list-style:none ;
+   list-style:none;
     margin: 0px;
     padding: 8px;
     font-size: 24px;
      display: flex;
-     gap: 16px;
-  
+     gap: 16px; 
  }
+
  ul a{
   text-decoration: none;
   color: black;
  }
+
  nav ul :hover {
   color: #EF960F;
  }
- 
-  main section.copertina img{
-    width: 1248px;
-    height: 1040px;
-    object-fit: cover;
-    align-items:center ;
-    padding: 0px 80px 0px 128px  ;
-    margin: 0;
 
+   main section.card{
+   display: grid ; 
+   grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+   margin: auto;
+   width: 100%;
+   padding: 40px;
 }
 
-    main section.card{
-        list-style: none;
-        display: grid ; 
-         grid-template-columns:  1fr 1fr;
-         max-width: 1200px;
-        margin: auto;
-        margin-top: -120px;
-        margin-bottom: 128px;
-  gap: 120px;
- }
 
-     main section.card img{
-     display: flex;
-     justify-content: space-around;
-        width: 472px;
-        height: 488px;
-        object-fit: cover;
-      }
+main section.card img{
+  margin: auto;
+   }
 
-
-      footer section.fote  {
-        list-style: none;
-       display: grid;
-     grid-template-columns: 1fr 1fr;
-     display: flex;
-     justify-content: space-around;
-   background-color:  #FCF77D;
+div.d{
+  margin: auto;
+width: 80%;
+padding: 40px;
+}
+    footer section.fote{
+    display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr ;
+     margin: auto;
       }
     
-      footer section.foter  {
-        list-style: none;
-       display: grid;
-     grid-template-columns: 1fr 1fr;
-     display: flex;
-     justify-content: space-around;
-  
-   padding-top: 1700px;
 
-      }
-  
-  
-      footer ul.fo{
-        list-style: none;
+section.fote img{
+  width: 20%;
+ }
 
+footer{
+  background-color:  #FCF77D;
+  text-align: center;
+  padding: px;
 }
- section.foo img{
-  list-style: none;
-  width: 140px;
-  height:130px;
-  object-fit: cover;
-  object-fit: fill;
-  padding: 28px;
+footer section.fote :hover{
+opacity:  0.8;
+}
 
-}
-footer section.c{
-  list-style: none;
- display: grid;
-grid-template-columns: 1fr 1fr;
-display: flex;
-justify-content: space-around;
-}
 p.t{
-  display: flex;
-  align-items :left;
-  padding-left: 330px;
   font-size: 48px;
-  width: 950px;
-  height: 300px;
-  line-height: 130%;
-}
-div.si p{
-  width: 800px;
-  height: 200px; 
+margin: auto;
   font-size: 48px;
+  width: 750px;
   line-height: 130%;
-  padding-left: 80px;
-}
-div.si img{
-  width: 625px;
-  height: 676px;
-  object-fit: cover;
-padding-top: 200px;
-padding-left: 80px;
+padding: 20px;
 }
 
-div.si{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+section.si p{
+  margin: auto;
+  width: 800px;
+  font-size: 48px;
+  line-height: 130%;
+padding: 20px;
 }
 
       footer img {
         list-style: none;
-        width: 140px;
-        height:130px;
+     max-width: 100%;
         object-fit: cover;
         object-fit: fill;
         padding: 28px;
-      
       }
+
       h4{
-        font-size: 40px ;
-      }
-      p{
         font-size: 32px ;
       }
       
-section.card :hover  {
+      p{
+        font-size: 32px ;
+      }
+      footer section.foter  {
+        list-style: none;
+       display: grid;
+     grid-template-columns: 1fr 1fr;
 
-border-style:  solid ;
-border-width: 20px;
-border-color:#FCF77D;
-}
-
-.b :hover  {
-  border-style: ridge ;
-  border-radius : 70px;
-  border-color: #EF960F;
-  }
+      }
+      footer section.foter img {
+        width: 10%;
+        object-fit: cover;
+        object-fit: fill;
   
+      }
+    footer  section.foo img{
+      max-width: 100%;
+        object-fit: cover;
+        object-fit: fill;
+        padding: 28px;
+      }
+      footer ul.foo{
+        list-style: none;
+      }
 
+      ul.foo h4{
+        font-size: px;
+      }
+      footer section.fot {
+        list-style: none;
+       display: grid;
+     grid-template-columns: 1fr 1fr;
+
+      }
+      footer section.fot img {
+        width: 10%;
+        object-fit: cover;
+        object-fit: fill;
+ 
+      }
+    footer  section.fo img{
+      max-width: 10%;
+        object-fit: cover;
+        object-fit: fill;
+      
+      }
+      footer ul.fo{
+        list-style: none;
+      }
+
+      ul.fo h4{
+        font-size:24px;
+      }
+section.card div:hover{
+opacity: 0.8;
+}
       h1{
      font-size: 64px;
         margin: 0px;  
@@ -181,7 +191,6 @@ border-color:#FCF77D;
    h2{
     font-size: 48px;
     margin: 0px;
-    gap: 8px;
    }
 
      body.co{
@@ -198,47 +207,226 @@ border-color:#FCF77D;
         justify-content: space-between;
         gap: 10px;
        }
-
-section.imag{
-    max-width: 1200px;
-    margin: auto;
+       header.hed :hover{
+color: blue ;
+       }
+       header.he :hover{
+        color: blue ;
+               }
+      main.ill {
+        width: 100%;
+        margin: auto;
+      } 
+      main.ill section.imag{
+        display: grid ; 
+        grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+        margin: auto;
+        width: 100%;
+        padding: 40px;
     }
-    
-    div.c{
-      width: 495px;
-      height: 600px;
-      object-fit: cover;
-      padding-left: 20px;
-    }
+    main section.ill img{
+      margin: auto;
+       }
 
-section.imag img {
-  width: 544px;
+div.c img {
+  width: 80%;
   height: 600px;
   object-fit: cover;
-  padding: 64px 64px 64px 64px;
+  margin: auto;
+  padding: 40px;
           }
-       
-       section.imag{
-        display: grid ; 
-        grid-template-columns: 1fr 1fr;
-  
-       }
-  h3{ 
+
+
+  main.ill h3{ 
     font-size: 64px;
     display: flex;
-  align-items: left;
-padding-left: 220px;
-padding-top: 64px;
-margin: 0%;
-  
+    justify-content:center ;
+  margin: auto;
+  padding: 40px;
 
-    
-  }
-
-       
+ }
+ul.u :hover{
+color: #FCF77D;
+}
           main.t{
-           
                 font-weight: normal;
                 text-align: center;
            font: size 46px; 
         }
+.foter{
+  background-color:#CFEBFA;
+}  
+.fote{
+  background-color:#CFEBFA
+} 
+.hed{
+  background-color:#fff;
+}   
+     @media(max-width:800px) {
+
+    main section.card img{
+    margin: auto;
+    max-width: 80%;
+   }
+
+   div.d{
+   max-width: 80%;
+   margin: auto;
+   }
+      
+       nav ul li  {
+       font-size:16px;
+       gap: 10px;
+       }
+
+       header  p{
+       font-size: 16px; 
+       padding: 10px;
+       }
+           
+       section.copertina h1{
+        font-size: 40px;
+        margin: auto;
+        }
+       }
+
+        @media (max-width:500px) {
+  
+        section.card div.dimg{
+        
+        margin: auto;
+        }
+              
+         main section.card{
+         margin: auto;
+         padding: 10px;
+         }
+                   
+         header nav ul li  {
+         font-size: 14px; 
+          }
+
+           header p{
+           font-size: 14px;         
+           }
+           section.card div.d h2{
+           font-size: 24px;
+           }
+
+           section.copertina h1{
+           font-size: 32px;
+           margin: auto;
+           }
+           ul.fo h4{
+            font-size:16px;
+          }
+          }     
+
+ @media (max-width:800px) {
+    
+      main.ill section.imag{ 
+        margin: auto; 
+      }
+      div.c img{
+        margin: auto;
+        width: 80%;
+        height: 90%;
+       padding: 20px;
+        }    
+        section.ill  img{
+          width: 80%;
+          margin: auto;
+          }
+                
+           main section.ill{
+           margin: auto;
+           padding: 10px;
+           }
+                     
+           header nav ul li  {
+           font-size: 14px; 
+            }
+  
+             header p{
+             font-size: 14px;         
+             }
+  
+             main.ill h3{ 
+              font-size: 48px;
+              display: flex;
+              justify-content:center ;
+            margin: auto;
+            padding: 40px;
+           }
+           p.t{
+            font-size: 32px;
+          margin: auto;
+            width: 350px;
+            line-height: 130%;
+          }
+          section.si p{
+            margin: auto;
+            width: 500px;
+            font-size: 40px;
+            line-height: 130%;
+          padding: 20px;
+          }
+      }
+      
+      
+ @media (max-width:500px) {
+
+main.ill section.imag{
+  margin: auto;
+}
+
+  section.ill  img{
+    margin: auto;
+    }
+          
+     main section.ill{
+     margin: auto;
+     padding: 10px;
+   
+     }
+     div.c img{
+      margin: auto;
+      width: 60%;
+      height: 80%;
+     padding: 20px;
+      }    
+
+     header nav ul li  {
+     font-size: 14px; 
+      }
+
+       header p{
+       font-size: 14px;         
+       }
+
+       main.ill h3{ 
+        font-size: 32px;
+      margin: auto;
+      padding: 10px;
+    
+     }
+     p.t{
+      font-size: 24px;
+    margin: auto;
+      width: 300px;
+      line-height: 130%;
+    }
+    section.si p{
+      margin: auto;
+      width: 400px;
+      font-size: 32px;
+      line-height: 130%;
+    padding: 70px;
+    }
+    ul.fo h4{
+      font-size:16px;
+    }
+    ul.foo h4{
+      font-size:16px;
+    }
+}
