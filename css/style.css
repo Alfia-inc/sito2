@@ -91,6 +91,9 @@ footer{
   text-align: center;
   padding: px;
 }
+footer.f{
+  background-color:  #FCF77D;
+}
 footer section.fote :hover{
 opacity:  0.8;
 }
@@ -106,7 +109,7 @@ padding: 20px;
 
 section.si p{
   margin: auto;
-  width: 800px;
+  width: 650px;
   font-size: 48px;
   line-height: 130%;
 padding: 20px;
@@ -214,7 +217,7 @@ color: blue ;
         color: blue ;
                }
       main.ill {
-        width: 100%;
+     width: 100%;
         margin: auto;
       } 
       main.ill section.imag{
@@ -256,8 +259,11 @@ color: #FCF77D;
 .foter{
   background-color:#CFEBFA;
 }  
-.fote{
-  background-color:#CFEBFA
+.foo{
+  background-color:#CFEBFA;
+}
+.f{
+  background-color:#FCF77D;
 } 
 .hed{
   background-color:#fff;
