@@ -4,11 +4,11 @@ body {
     margin: 0;
 }
 img{
-width: 100%;
+max-width: 100%;
 }
 
 main, footer header {
-width:100%;
+max-width:100%;
 margin: auto;
 }
 main.ill footer.foo header.he {
@@ -61,18 +61,19 @@ header.pa{
    display: grid ; 
    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
    margin: auto;
-   width: 100%;
+   max-width: 100%;
    padding: 40px;
 }
 
 
 main section.card img{
   margin: auto;
+  max-width: 100%;
    }
 
 div.d{
   margin: auto;
-width: 80%;
+max-width: 100%;
 padding: 40px;
 }
     footer section.fote{
@@ -109,8 +110,8 @@ padding: 20px;
 
 section.si p{
   margin: auto;
-  width: 650px;
-  font-size: 48px;
+  width: 600px;
+  font-size: 40px;
   line-height: 130%;
 padding: 20px;
 }
@@ -269,7 +270,54 @@ color: #FCF77D;
   background-color:#fff;
 }   
      @media(max-width:800px) {
-
+      main header footer{
+        max-width: 100%;
+      }
+          main.ill section.imag{ 
+            margin: auto; 
+          }
+          div.c img{
+            margin: auto;
+            width: 80%;
+            height: 90%;
+           padding: 20px;
+            }    
+            section.ill  img{
+              width: 80%;
+              margin: auto;
+              }
+                    
+               main section.ill{
+               margin: auto;
+               padding: 10px;
+               }
+                         
+               header nav ul li  {
+               font-size: 14px; 
+                }
+      
+                 header p{
+                 font-size: 14px;         
+                 }
+      
+                 main.ill h3{ 
+                  font-size: 48px;
+                  display: flex;
+                  justify-content:center ;
+                margin: auto;
+                padding: 40px;
+               }
+               p.t{
+                font-size: 32px;
+              margin: auto;
+                width: 350px;
+                line-height: 130%;
+              }
+        
+              div.d  h2{
+                font-size:32px ;
+    
+              }
     main section.card img{
     margin: auto;
     max-width: 80%;
@@ -293,99 +341,87 @@ color: #FCF77D;
        section.copertina h1{
         font-size: 40px;
         margin: auto;
+        } 
+        section.si p{
+          margin: auto;
+          width: 400px;
+          font-size: 32px;
+          line-height: 130%;
+        padding: 70px;
         }
+
        }
 
-        @media (max-width:500px) {
-  
-        section.card div.dimg{
-        
-        margin: auto;
+      @media (max-width:600px) {
+       
+        main header footer{
+          max-width: 100%;
         }
-              
-         main section.card{
-         margin: auto;
-         padding: 10px;
-         }
-                   
-         header nav ul li  {
-         font-size: 14px; 
-          }
-
-           header p{
-           font-size: 14px;         
-           }
-           section.card div.d h2{
-           font-size: 24px;
-           }
-
-           section.copertina h1{
-           font-size: 32px;
-           margin: auto;
-           }
-           ul.fo h4{
-            font-size:16px;
-          }
-          }     
-
- @media (max-width:800px) {
-    
-      main.ill section.imag{ 
-        margin: auto; 
-      }
-      div.c img{
-        margin: auto;
-        width: 80%;
-        height: 90%;
-       padding: 20px;
-        }    
-        section.ill  img{
-          width: 80%;
-          margin: auto;
-          }
-                
-           main section.ill{
-           margin: auto;
-           padding: 10px;
-           }
-                     
-           header nav ul li  {
-           font-size: 14px; 
+            main.ill section.imag{ 
+              margin: auto; 
             }
-  
-             header p{
-             font-size: 14px;         
-             }
-  
-             main.ill h3{ 
-              font-size: 48px;
-              display: flex;
-              justify-content:center ;
-            margin: auto;
-            padding: 40px;
-           }
-           p.t{
-            font-size: 32px;
-          margin: auto;
-            width: 350px;
-            line-height: 130%;
-          }
-          section.si p{
-            margin: auto;
-            width: 500px;
-            font-size: 40px;
-            line-height: 130%;
-          padding: 20px;
-          }
-      }
+            div.c img{
+              margin: auto;
+              width: 80%;
+              height: 90%;
+             padding: 20px;
+              }    
+              section.ill  img{
+                width: 80%;
+                margin: auto;
+                }
+                      
+                 main section.ill{
+                 margin: auto;
+                 padding: 10px;
+                 }
+                           
+                 header nav ul li  {
+                 font-size: 14px; 
+                  }
+        
+                   header p{
+                   font-size: 14px;         
+                   }
+        
+                   main.ill h3{ 
+                    font-size: 48px;
+                    display: flex;
+                    justify-content:center ;
+                  margin: auto;
+                  padding: 40px;
+                 }
+                 p.t{
+                  font-size: 32px;
+                margin: auto;
+                  width: 350px;
+                  line-height: 130%;
+                }
+              div.d  h2{
+                  font-size:24px ;
+
+                }
+               section.copertina h1{
+                  font-size:32px ;
+                }
+                section.si p{
+                  margin: auto;
+                  width: 400px;
+                  font-size: 32px;
+                  line-height: 130%;
+                padding: 70px;
+                }
       
-      
+            }
+            
  @media (max-width:500px) {
 
 main.ill section.imag{
   margin: auto;
 }
-
+main header footer{
+  max-width: 100%;
+}
   section.ill  img{
     margin: auto;
     }
@@ -435,4 +471,32 @@ main.ill section.imag{
     ul.foo h4{
       font-size:16px;
     }
+  
+      section.card div.d img{
+      margin: auto;
+      }
+            
+       main section.card{
+       margin: auto;
+       padding: 10px;
+       }
+                 
+       header nav ul li  {
+       font-size: 14px; 
+        }
+
+         header p{
+         font-size: 14px;         
+         }
+         section.card div.d h2{
+         font-size: 24px;
+         }
+
+         section.copertina h1{
+         font-size: 32px;
+         margin: auto;
+         }
+         ul.fo h4{
+          font-size:16px;
+        }
 }
